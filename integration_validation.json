@@ -1,0 +1,88 @@
+{
+  "vision": {
+    "input_video": "/Users/ijewon/WORKSPACES/tugboat-safety/tugboat-safety-twin/recordings/run-v1-001/camera.mp4",
+    "weights": "/Users/ijewon/WORKSPACES/tugboat-safety/tugboat-safety_vision/weights/best.pt",
+    "source_width": 1280,
+    "source_height": 720,
+    "source_fps": 24.0,
+    "total_frames_processed": 480,
+    "video_duration_sec": 20.0,
+    "detected_frames": 480,
+    "detected_ratio": 1.0,
+    "mean_confidence_detected": 0.9603725270678599,
+    "total_elapsed_sec": 12.070606958994176,
+    "mean_inference_ms": 4.935985072491651,
+    "effective_processing_fps": 39.76602018694159,
+    "device_requested": "mps",
+    "device_used": "mps",
+    "conf": 0.25,
+    "imgsz": 960,
+    "mean_predict_call_ms": 14.709273890548502,
+    "inference_timing_source": "ultralytics.speed.inference",
+    "inference_timing_fallback_frames": 0,
+    "overlay_width": 1280,
+    "overlay_height": 720
+  },
+  "vision_jsonl_records": 480,
+  "first_timestamp_ms": 0.0,
+  "last_timestamp_ms": 19958.333333333332,
+  "imu": {
+    "samples": 2000,
+    "first_timestamp_ms": 0,
+    "last_timestamp_ms": 19990,
+    "spacing_ms": 10,
+    "sequence_id": "recording-v1-001",
+    "all_sensor_values_finite": true
+  },
+  "synchronization": {
+    "records": 480,
+    "matched": 480,
+    "unmatched": 0,
+    "matched_ratio": 1.0,
+    "min_absolute_delta_ms": 0.0,
+    "mean_absolute_delta_ms": 2.5,
+    "median_absolute_delta_ms": 2.5,
+    "p95_absolute_delta_ms": 5.0,
+    "max_absolute_delta_ms": 5.0,
+    "all_selected_imu_rows_equal_independent_nearest": true,
+    "all_boundaries_valid": true
+  },
+  "mask_preservation": {
+    "checked_records": 480,
+    "mismatches": 0,
+    "method": "Exact full vision object equality, including unchanged opaque mask_base64 strings"
+  },
+  "timestamp_examples": [
+    {
+      "frame_index": 0,
+      "vision_timestamp_ms": 0.0,
+      "imu_timestamp_ms": 0.0,
+      "time_delta_ms": 0.0
+    },
+    {
+      "frame_index": 1,
+      "vision_timestamp_ms": 41.666666666666664,
+      "imu_timestamp_ms": 40.0,
+      "time_delta_ms": -1.6666666666666643
+    },
+    {
+      "frame_index": 24,
+      "vision_timestamp_ms": 1000.0,
+      "imu_timestamp_ms": 1000.0,
+      "time_delta_ms": 0.0
+    },
+    {
+      "frame_index": 240,
+      "vision_timestamp_ms": 10000.0,
+      "imu_timestamp_ms": 10000.0,
+      "time_delta_ms": 0.0
+    },
+    {
+      "frame_index": 479,
+      "vision_timestamp_ms": 19958.333333333332,
+      "imu_timestamp_ms": 19960.0,
+      "time_delta_ms": 1.6666666666678793
+    }
+  ],
+  "overlay_decoded_frames": 480
+}
