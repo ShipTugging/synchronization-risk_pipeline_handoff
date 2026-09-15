@@ -1,0 +1,4 @@
+tugguard-env/
+__pycache__/
+.DS_Store
+*.pyc
